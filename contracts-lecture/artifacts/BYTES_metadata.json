@@ -7,12 +7,27 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getA",
+				"name": "getABC",
 				"outputs": [
 					{
 						"internalType": "bytes",
 						"name": "",
 						"type": "bytes"
+					},
+					{
+						"internalType": "bytes1",
+						"name": "",
+						"type": "bytes1"
+					},
+					{
+						"internalType": "bytes2",
+						"name": "",
+						"type": "bytes2"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
 					}
 				],
 				"stateMutability": "view",
@@ -24,29 +39,24 @@
 						"internalType": "bytes",
 						"name": "_a",
 						"type": "bytes"
-					}
-				],
-				"name": "setA",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "setA2",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
+					},
 					{
-						"internalType": "string",
-						"name": "_a",
-						"type": "string"
+						"internalType": "bytes1",
+						"name": "_b",
+						"type": "bytes1"
+					},
+					{
+						"internalType": "bytes2",
+						"name": "_c",
+						"type": "bytes2"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "_d",
+						"type": "bytes32"
 					}
 				],
-				"name": "setA3",
+				"name": "setABC",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -65,7 +75,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/230503-2.sol": "BYTES"
+			"contracts-lecture/230504-2.sol": "BYTES"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -79,12 +89,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/230503-2.sol": {
-			"keccak256": "0x09ed13653adfa1b83e71164aca8fefe5fb81831b8e8c32a6c6bb479a662becc7",
+		"contracts-lecture/230504-2.sol": {
+			"keccak256": "0x6bc846a98b9d216d67da0730e73de51e0e53d4cfa17fd6461760e9976ae39cd0",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://e5503c0767542e981144a384738b059145c8aaec3e54ddb0a7a65a53c09865cb",
-				"dweb:/ipfs/QmbH29NPKB7dK5PyqycTgMta2janTWiceLFPKNdext7jsf"
+				"bzz-raw://3326228760f221105647c2663d8dd34f3045bbbd48537d1d9a3b3c15ee39b624",
+				"dweb:/ipfs/QmP6U3aTBCnkJAPs5iHjpY7bwHd3LowcHcdyUcF2kTHcZ2"
 			]
 		}
 	},

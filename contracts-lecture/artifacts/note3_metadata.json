@@ -56,7 +56,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts-lecture/230508-test.sol": "Mapping"
+			"contracts-lecture/230508-test.sol": "note3"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -71,11 +71,11 @@
 	},
 	"sources": {
 		"contracts-lecture/230508-test.sol": {
-			"keccak256": "0x7510b22f79ae9e7c1ab68d89be40c5e7740cb71baa17949a8cb0d00ae6cf4b81",
+			"keccak256": "0x380bdad8515cc53e5de80a5882f260a7def3146d0b5320093461dfe4be6e753a",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://50a3a4058e5d85e882ab3763fe16fe794caaab7fc0b701a3a54b91f06f44a408",
-				"dweb:/ipfs/QmdHLQZsAZiikWHzvZdnWeucvBLQQaKL7ZVmo2URBxkGw8"
+				"bzz-raw://b1f2af8b4f652a0f8aa6642c11eb686c828ecd95481f5f8f03025eec12c26b35",
+				"dweb:/ipfs/QmXnE68kDUfEbBaxSZU4G2TfBnLZvRLEpxN8zEikHbikFX"
 			]
 		}
 	},

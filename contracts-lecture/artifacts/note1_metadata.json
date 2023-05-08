@@ -46,7 +46,7 @@
 								"type": "bytes2"
 							}
 						],
-						"internalType": "struct note.D",
+						"internalType": "struct note1.D",
 						"name": "",
 						"type": "tuple"
 					}
@@ -95,7 +95,7 @@
 								"type": "bytes2"
 							}
 						],
-						"internalType": "struct note.D",
+						"internalType": "struct note1.D",
 						"name": "",
 						"type": "tuple"
 					}
@@ -170,7 +170,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts-lecture/230508-test.sol": "note"
+			"contracts-lecture/230508-test.sol": "note1"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -185,11 +185,11 @@
 	},
 	"sources": {
 		"contracts-lecture/230508-test.sol": {
-			"keccak256": "0xc784bb7fd5fb0d2e1e6723cb3c2c5944126c4a660ee23e8d4fe2863a830b4f92",
+			"keccak256": "0x380bdad8515cc53e5de80a5882f260a7def3146d0b5320093461dfe4be6e753a",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://5ae3a814c84c163ed09c76e789232519c7167f42a69d6c600883f48c9870e200",
-				"dweb:/ipfs/QmV9s7nhXRorFGqcTfbstrRV8yE4UAqZ5wcojsCfxsF2cv"
+				"bzz-raw://b1f2af8b4f652a0f8aa6642c11eb686c828ecd95481f5f8f03025eec12c26b35",
+				"dweb:/ipfs/QmXnE68kDUfEbBaxSZU4G2TfBnLZvRLEpxN8zEikHbikFX"
 			]
 		}
 	},

@@ -6,8 +6,14 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "getLength",
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_n",
+						"type": "uint256"
+					}
+				],
+				"name": "getBirthday",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -36,18 +42,13 @@
 								"type": "string"
 							},
 							{
-								"internalType": "string",
-								"name": "gender",
-								"type": "string"
-							},
-							{
 								"internalType": "uint256",
-								"name": "number",
+								"name": "birthday",
 								"type": "uint256"
 							},
 							{
 								"internalType": "uint256",
-								"name": "birthday",
+								"name": "number",
 								"type": "uint256"
 							}
 						],
@@ -57,83 +58,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getStudentS",
-				"outputs": [
-					{
-						"components": [
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							},
-							{
-								"internalType": "string",
-								"name": "gender",
-								"type": "string"
-							},
-							{
-								"internalType": "uint256",
-								"name": "number",
-								"type": "uint256"
-							},
-							{
-								"internalType": "uint256",
-								"name": "birthday",
-								"type": "uint256"
-							}
-						],
-						"internalType": "struct Struct.Student",
-						"name": "",
-						"type": "tuple"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getStudents",
-				"outputs": [
-					{
-						"components": [
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							},
-							{
-								"internalType": "string",
-								"name": "gender",
-								"type": "string"
-							},
-							{
-								"internalType": "uint256",
-								"name": "number",
-								"type": "uint256"
-							},
-							{
-								"internalType": "uint256",
-								"name": "birthday",
-								"type": "uint256"
-							}
-						],
-						"internalType": "struct Struct.Student[]",
-						"name": "",
-						"type": "tuple[]"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "popStudent",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -144,50 +68,17 @@
 						"type": "string"
 					},
 					{
-						"internalType": "string",
-						"name": "_gender",
-						"type": "string"
-					},
-					{
 						"internalType": "uint256",
-						"name": "_number",
+						"name": "_birthday",
 						"type": "uint256"
 					},
 					{
 						"internalType": "uint256",
-						"name": "_birth",
+						"name": "_number",
 						"type": "uint256"
 					}
 				],
 				"name": "pushStudent",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "_gender",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_number",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_birth",
-						"type": "uint256"
-					}
-				],
-				"name": "setStudentS",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -206,7 +97,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts-lecture/230504-3.sol": "Struct"
+			"contracts-lecture/230508-3.sol": "Struct"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -220,12 +111,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts-lecture/230504-3.sol": {
-			"keccak256": "0xf8396994c77fe28996904c283c1d6f0d29b34260bddee9e8cf168f27943df645",
+		"contracts-lecture/230508-3.sol": {
+			"keccak256": "0xf6d07fe0b259e853297737dac7eecb7d15d37aca9c550b47bfbbc967733f5338",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://3b1ee607c95e9d39df68882d773590a3db5543185333c16cff183b2b27976058",
-				"dweb:/ipfs/QmYiJemrH4zFBXDja2CDuJERXHSuofHrmK2Jn9uFWHDmuX"
+				"bzz-raw://9d4c123e3ba6e42af63f7ab720f7fdea3ac7f8a07d135cc064e33519d7bd37c5",
+				"dweb:/ipfs/QmbaqZEunH8ARgpW4JUgJSWB4pmehS8ZfPCJMiSYVTnhkD"
 			]
 		}
 	},

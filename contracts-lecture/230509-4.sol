@@ -100,7 +100,7 @@ contract fixedArray {
     2. 초기화 후, 1 -> pushB3() 한 후에, getBLength(), getB() 해보기
     3. 1번 결과 2번 결과 비교해보기
     */
-    
+
     uint[] a;
     uint[4] b;
 

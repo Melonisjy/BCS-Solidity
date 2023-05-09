@@ -146,11 +146,11 @@
 	},
 	"sources": {
 		"contracts-lecture/230509-test.sol": {
-			"keccak256": "0x214a861a9923ae2d890dfde0667face4680c5d70fa1e7f045b4cf0f7d8fc01b4",
+			"keccak256": "0x44e147fcdb24ee83ebd44b9c8175393f8eb75aff7af19fcec7ecf59f3afb061f",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://8e40a62ea802c3044bdfe7130791d7dbe7f7b4aa33d805308da39c5706b327df",
-				"dweb:/ipfs/QmesfoNqdXhAqGtTiN9uq1PLN35sRp8HZkkpgGvAX8w3sa"
+				"bzz-raw://f90e896d49d23dbd9ab8cadc7f62cba8a599d3f5aae32221d5f6d0dd3ac18e98",
+				"dweb:/ipfs/QmVzDJVTFa96ouGQz6sRo7Fw4wM1ANGvYacyrJ6j6dtcPS"
 			]
 		}
 	},

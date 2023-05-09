@@ -78,3 +78,15 @@ contract test3 {
         return ABCs[_n-1].c;
     }
 }
+
+contract test4 {
+    function forLoop() public pure returns(uint) {
+        uint a;
+
+        for (uint i=0; i<6; i++) {
+            a += i;
+        }
+
+        return a;
+    }
+}

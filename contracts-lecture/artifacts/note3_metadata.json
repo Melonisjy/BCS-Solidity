@@ -8,17 +8,64 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "_n",
+						"type": "uint256"
 					}
 				],
-				"name": "getHeight",
+				"name": "getABC",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "a",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "b",
+								"type": "string"
+							},
+							{
+								"internalType": "string[]",
+								"name": "c",
+								"type": "string[]"
+							}
+						],
+						"internalType": "struct note3.ABC",
 						"name": "",
-						"type": "uint256"
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAll",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "a",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "b",
+								"type": "string"
+							},
+							{
+								"internalType": "string[]",
+								"name": "c",
+								"type": "string[]"
+							}
+						],
+						"internalType": "struct note3.ABC[]",
+						"name": "",
+						"type": "tuple[]"
 					}
 				],
 				"stateMutability": "view",
@@ -27,17 +74,41 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					},
-					{
 						"internalType": "uint256",
-						"name": "_height",
+						"name": "_n",
 						"type": "uint256"
 					}
 				],
-				"name": "setHeight",
+				"name": "getC",
+				"outputs": [
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_b",
+						"type": "string"
+					},
+					{
+						"internalType": "string[]",
+						"name": "_c",
+						"type": "string[]"
+					}
+				],
+				"name": "pushABC",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -56,7 +127,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts-lecture/230508-test.sol": "note3"
+			"contracts-lecture/230509-1.sol": "note3"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -70,12 +141,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts-lecture/230508-test.sol": {
-			"keccak256": "0x380bdad8515cc53e5de80a5882f260a7def3146d0b5320093461dfe4be6e753a",
+		"contracts-lecture/230509-1.sol": {
+			"keccak256": "0xf1ef0f3a65cacda5e839d5649f44f15bb39cad3c40db1f34be68238303dfe765",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b1f2af8b4f652a0f8aa6642c11eb686c828ecd95481f5f8f03025eec12c26b35",
-				"dweb:/ipfs/QmXnE68kDUfEbBaxSZU4G2TfBnLZvRLEpxN8zEikHbikFX"
+				"bzz-raw://b59a366e8150662ed2b5abbc3ad1f6e9b9d18c330241c283bad7cac867172589",
+				"dweb:/ipfs/QmYigJXxHufAop62MUi98kDgut6rBhXzgo3F6uhV5vDkup"
 			]
 		}
 	},

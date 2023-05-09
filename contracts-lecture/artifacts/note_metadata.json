@@ -6,57 +6,8 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_n",
-						"type": "uint256"
-					}
-				],
-				"name": "getA",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [],
-				"name": "getDD",
-				"outputs": [
-					{
-						"components": [
-							{
-								"internalType": "uint256",
-								"name": "a",
-								"type": "uint256"
-							},
-							{
-								"internalType": "string",
-								"name": "b",
-								"type": "string"
-							},
-							{
-								"internalType": "bytes2",
-								"name": "c",
-								"type": "bytes2"
-							}
-						],
-						"internalType": "struct note.D",
-						"name": "",
-						"type": "tuple"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getLength",
+				"name": "forLoop",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -64,96 +15,7 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_n",
-						"type": "uint256"
-					}
-				],
-				"name": "getN",
-				"outputs": [
-					{
-						"components": [
-							{
-								"internalType": "uint256",
-								"name": "a",
-								"type": "uint256"
-							},
-							{
-								"internalType": "string",
-								"name": "b",
-								"type": "string"
-							},
-							{
-								"internalType": "bytes2",
-								"name": "c",
-								"type": "bytes2"
-							}
-						],
-						"internalType": "struct note.D",
-						"name": "",
-						"type": "tuple"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_a",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "_b",
-						"type": "string"
-					},
-					{
-						"internalType": "bytes2",
-						"name": "_c",
-						"type": "bytes2"
-					}
-				],
-				"name": "pushD",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "pushD2",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_a",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string",
-						"name": "_b",
-						"type": "string"
-					},
-					{
-						"internalType": "bytes2",
-						"name": "_c",
-						"type": "bytes2"
-					}
-				],
-				"name": "setDD",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -170,7 +32,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts-lecture/230508-test.sol": "note"
+			"contracts-lecture/230509-4.sol": "note"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -184,12 +46,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts-lecture/230508-test.sol": {
-			"keccak256": "0xc784bb7fd5fb0d2e1e6723cb3c2c5944126c4a660ee23e8d4fe2863a830b4f92",
+		"contracts-lecture/230509-4.sol": {
+			"keccak256": "0xe9de750b55ba53f130bd8cc47574a71b800abe3acf5c92d1cc13a582eff6b02b",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://5ae3a814c84c163ed09c76e789232519c7167f42a69d6c600883f48c9870e200",
-				"dweb:/ipfs/QmV9s7nhXRorFGqcTfbstrRV8yE4UAqZ5wcojsCfxsF2cv"
+				"bzz-raw://50d3b250455e36114a6968d18e6bc3b7da68ee095d013aceb09e40a357c73976",
+				"dweb:/ipfs/QmbZmUMKeewLE3fSTcsePkFsYqVu2VkACBRuwJP1R8Wxte"
 			]
 		}
 	},

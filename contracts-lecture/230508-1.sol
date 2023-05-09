@@ -84,6 +84,10 @@ contract note {
         Ds.push(dd);
     }
 
+    function getAllDs() public view returns(D[] memory) {
+        return Ds;
+    }
+
     // Ds array의 n번째 요소를 반환받는 getN이라는 함수를 구현하세요.
     function getN(uint _n) public view returns(D memory) {
         return Ds[_n-1];

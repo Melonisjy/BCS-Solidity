@@ -7,7 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "getAllList",
+				"name": "getAll",
 				"outputs": [
 					{
 						"components": [
@@ -27,7 +27,7 @@
 								"type": "bytes2"
 							}
 						],
-						"internalType": "struct note2.D[]",
+						"internalType": "struct test2.D[]",
 						"name": "",
 						"type": "tuple[]"
 					}
@@ -43,7 +43,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "getList",
+				"name": "getD",
 				"outputs": [
 					{
 						"components": [
@@ -63,7 +63,7 @@
 								"type": "bytes2"
 							}
 						],
-						"internalType": "struct note2.D",
+						"internalType": "struct test2.D",
 						"name": "",
 						"type": "tuple"
 					}
@@ -131,7 +131,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts-lecture/230509-1.sol": "note2"
+			"contracts-lecture/230509-test.sol": "test2"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -145,12 +145,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts-lecture/230509-1.sol": {
-			"keccak256": "0xf1ef0f3a65cacda5e839d5649f44f15bb39cad3c40db1f34be68238303dfe765",
+		"contracts-lecture/230509-test.sol": {
+			"keccak256": "0x214a861a9923ae2d890dfde0667face4680c5d70fa1e7f045b4cf0f7d8fc01b4",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b59a366e8150662ed2b5abbc3ad1f6e9b9d18c330241c283bad7cac867172589",
-				"dweb:/ipfs/QmYigJXxHufAop62MUi98kDgut6rBhXzgo3F6uhV5vDkup"
+				"bzz-raw://8e40a62ea802c3044bdfe7130791d7dbe7f7b4aa33d805308da39c5706b327df",
+				"dweb:/ipfs/QmesfoNqdXhAqGtTiN9uq1PLN35sRp8HZkkpgGvAX8w3sa"
 			]
 		}
 	},

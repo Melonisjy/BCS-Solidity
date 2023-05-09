@@ -6,28 +6,34 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "getAllList",
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_Teacher",
+						"type": "string"
+					}
+				],
+				"name": "getTeacher_Class",
 				"outputs": [
 					{
 						"components": [
 							{
-								"internalType": "string",
-								"name": "a",
-								"type": "string"
-							},
-							{
 								"internalType": "uint256",
-								"name": "b",
+								"name": "number",
 								"type": "uint256"
 							},
 							{
-								"internalType": "bytes2",
-								"name": "c",
-								"type": "bytes2"
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "string[]",
+								"name": "classes",
+								"type": "string[]"
 							}
 						],
-						"internalType": "struct note2.D[]",
+						"internalType": "struct MAPPING.Student[]",
 						"name": "",
 						"type": "tuple[]"
 					}
@@ -38,32 +44,32 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "_n",
-						"type": "uint256"
+						"internalType": "string",
+						"name": "_Teacher",
+						"type": "string"
 					}
 				],
-				"name": "getList",
+				"name": "getTeacher_Student",
 				"outputs": [
 					{
 						"components": [
 							{
-								"internalType": "string",
-								"name": "a",
-								"type": "string"
-							},
-							{
 								"internalType": "uint256",
-								"name": "b",
+								"name": "number",
 								"type": "uint256"
 							},
 							{
-								"internalType": "bytes2",
-								"name": "c",
-								"type": "bytes2"
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "string[]",
+								"name": "classes",
+								"type": "string[]"
 							}
 						],
-						"internalType": "struct note2.D",
+						"internalType": "struct MAPPING.Student",
 						"name": "",
 						"type": "tuple"
 					}
@@ -75,21 +81,26 @@
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "_a",
+						"name": "_Teacher",
 						"type": "string"
 					},
 					{
 						"internalType": "uint256",
-						"name": "_b",
+						"name": "_number",
 						"type": "uint256"
 					},
 					{
-						"internalType": "bytes2",
-						"name": "_c",
-						"type": "bytes2"
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string[]",
+						"name": "_classes",
+						"type": "string[]"
 					}
 				],
-				"name": "pushD",
+				"name": "setTeacher_Class",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -98,21 +109,26 @@
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "_a",
+						"name": "_Teacher",
 						"type": "string"
 					},
 					{
 						"internalType": "uint256",
-						"name": "_b",
+						"name": "number",
 						"type": "uint256"
 					},
 					{
-						"internalType": "bytes2",
-						"name": "_c",
-						"type": "bytes2"
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string[]",
+						"name": "classes",
+						"type": "string[]"
 					}
 				],
-				"name": "setDDD",
+				"name": "setTeacher_Student",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -131,7 +147,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts-lecture/230509-1.sol": "note2"
+			"contracts-lecture/230509-3.sol": "MAPPING"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -145,12 +161,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts-lecture/230509-1.sol": {
-			"keccak256": "0xf1ef0f3a65cacda5e839d5649f44f15bb39cad3c40db1f34be68238303dfe765",
+		"contracts-lecture/230509-3.sol": {
+			"keccak256": "0xefc922e662dd1b6f959d1bea33946b0d7dc7d9d2b25d38a94d96734222658ef3",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b59a366e8150662ed2b5abbc3ad1f6e9b9d18c330241c283bad7cac867172589",
-				"dweb:/ipfs/QmYigJXxHufAop62MUi98kDgut6rBhXzgo3F6uhV5vDkup"
+				"bzz-raw://43c7a780431db6ad8be7015513d96dc8cf4cccedd62ad19ce6c808c29aeef423",
+				"dweb:/ipfs/QmYsW1vVaRmUes691qAJ2EZtymM4nEsy9pEiVQ4np68yVm"
 			]
 		}
 	},

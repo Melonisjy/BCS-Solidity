@@ -1,0 +1,86 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "Fun",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bool",
+						"name": "_a",
+						"type": "bool"
+					}
+				],
+				"name": "Fun",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getVar",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "notFun",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts-lecture/230510-2.sol": "BOOL"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts-lecture/230510-2.sol": {
+			"keccak256": "0x695b3230bd09b566a62e3046aeabe16d3e3cc45d3e1c8ad40e4488ba00d1d512",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://46dfe4c37ad8430a6e7e5994fa67266f2122ca57dfc2bf810cf64d7bc0e4d822",
+				"dweb:/ipfs/QmcNubRhSbvPFtjA1j5rjK1iSkPaKs3cy3teqUzDJUs7Qy"
+			]
+		}
+	},
+	"version": 1
+}

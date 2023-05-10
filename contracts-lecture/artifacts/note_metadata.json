@@ -6,16 +6,168 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "forLoop",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "_n",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"name": "getName",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_Teacher",
+						"type": "string"
+					}
+				],
+				"name": "getStudent",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "number",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string[]",
+								"name": "classes",
+								"type": "string[]"
+							}
+						],
+						"internalType": "struct note.Student[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_n",
+						"type": "uint256"
+					}
+				],
+				"name": "getStudents",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "number",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string[]",
+								"name": "classes",
+								"type": "string[]"
+							}
+						],
+						"internalType": "struct note.Student",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_Teacher",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string[]",
+						"name": "_classes",
+						"type": "string[]"
+					}
+				],
+				"name": "setStudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_aa",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_n",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					}
+				],
+				"name": "setStudent2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string[]",
+						"name": "_classes",
+						"type": "string[]"
+					}
+				],
+				"name": "setStudents",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -32,7 +184,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts-lecture/230509-4.sol": "note"
+			"contracts-lecture/230510-1.sol": "note"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -46,12 +198,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts-lecture/230509-4.sol": {
-			"keccak256": "0xe9de750b55ba53f130bd8cc47574a71b800abe3acf5c92d1cc13a582eff6b02b",
+		"contracts-lecture/230510-1.sol": {
+			"keccak256": "0x3e4e7c4984e18cf28e26dd326828eb5d749e0e4be982be60d47d1eeaa093f820",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://50d3b250455e36114a6968d18e6bc3b7da68ee095d013aceb09e40a357c73976",
-				"dweb:/ipfs/QmbZmUMKeewLE3fSTcsePkFsYqVu2VkACBRuwJP1R8Wxte"
+				"bzz-raw://a70fa061ed23624ab70ead9385c8cc7e173e37be0ddcc32f4619c4bb75923d9f",
+				"dweb:/ipfs/QmapvwjN99EwPaGVa5LY1TG3RVp2GPrtriTMGFC6Kbwacs"
 			]
 		}
 	},

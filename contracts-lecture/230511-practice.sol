@@ -78,4 +78,15 @@ contract practice {
     }
 
     // * 보충반 조회 기능 - F 학점을 받은 학생들의 숫자와 그 전체 정보를 반환
+    function getFClass() public view returns(uint) {
+        uint num;
+        // Student[] memory F_students = new Student[](num);
+
+        for (uint i=0; i<students.length; i++) {
+            if (keccak256(bytes(students[i].credit)) == keccak256(bytes("F"))) {
+                num ++;     
+            }
+        }
+        return num;
+    }
 }

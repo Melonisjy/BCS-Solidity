@@ -1,0 +1,298 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getAllNum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAllStudent",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "number",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "score",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "credit",
+								"type": "string"
+							},
+							{
+								"internalType": "string[]",
+								"name": "classes",
+								"type": "string[]"
+							}
+						],
+						"internalType": "struct test.Student[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAvg",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getF",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getS",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "getScoreByName",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "getStudentByName",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "number",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "score",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "credit",
+								"type": "string"
+							},
+							{
+								"internalType": "string[]",
+								"name": "classes",
+								"type": "string[]"
+							}
+						],
+						"internalType": "struct test.Student",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_number",
+						"type": "uint256"
+					}
+				],
+				"name": "getStudentByNum",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "number",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "score",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "credit",
+								"type": "string"
+							},
+							{
+								"internalType": "string[]",
+								"name": "classes",
+								"type": "string[]"
+							}
+						],
+						"internalType": "struct test.Student",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_score",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string[]",
+						"name": "_classes",
+						"type": "string[]"
+					}
+				],
+				"name": "pushStudent",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "selfTest",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_score",
+						"type": "uint256"
+					}
+				],
+				"name": "setGrade",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts-test/230511-test1.sol": "test"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts-test/230511-test1.sol": {
+			"keccak256": "0x122069e1aa4d5fc823fabe2fe210f0960382487ae45b426298c6e41638eec39b",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://cd924e1e244e471cd0a4ccd1e4ce072333d281952356dabb5a2a587196b9a3ac",
+				"dweb:/ipfs/QmXweHWQr77te565BWfDUY181DALBpJMUYrsWp8BkoTJM6"
+			]
+		}
+	},
+	"version": 1
+}

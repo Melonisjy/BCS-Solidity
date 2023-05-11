@@ -6,79 +6,19 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "getA",
-				"outputs": [
-					{
-						"internalType": "uint256[]",
-						"name": "",
-						"type": "uint256[]"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getALength",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getB",
-				"outputs": [
-					{
-						"internalType": "uint256[4]",
-						"name": "",
-						"type": "uint256[4]"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getBLength",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getCount",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					},
 					{
 						"internalType": "uint256",
 						"name": "_n",
 						"type": "uint256"
 					}
 				],
-				"name": "pushA",
+				"name": "changeA",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -96,7 +36,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "pushB",
+				"name": "changeB",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -109,7 +49,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "pushB2",
+				"name": "setA",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -122,9 +62,22 @@
 						"type": "uint256"
 					}
 				],
-				"name": "pushB3",
+				"name": "setB",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sumA",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -141,7 +94,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts-lecture/230509-4.sol": "fixedArray"
+			"contracts-lecture/230511-1.sol": "fixedArray"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -155,12 +108,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts-lecture/230509-4.sol": {
-			"keccak256": "0x55cc79edc0d708d3aa513912ea5c3d6321305489ff5567e663914269ecc04fe4",
+		"contracts-lecture/230511-1.sol": {
+			"keccak256": "0x116867c35c4e4c30acf90ee30e50d6f9f7dee9570b24cc427cb90eaa8a31d576",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://18161401b40f6fd6f39cfb52f5f2563fa3184412fc798f53b4a490930dde62a9",
-				"dweb:/ipfs/QmXF4nMaTSVFmCTZWHA3RdGjinSRCaEvaWMqga8TAkKPeP"
+				"bzz-raw://e3195c9b7e5bf2c3e69e1415010a900caf0e4ed4a10a31c722ef7cb6f33f213b",
+				"dweb:/ipfs/QmUWQDR2MQpZicPtA5TpXG5E5QjjEjinAn4TzzZsXzF7aj"
 			]
 		}
 	},

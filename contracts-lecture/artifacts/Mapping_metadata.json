@@ -8,17 +8,83 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "_n",
+						"type": "uint256"
 					}
 				],
-				"name": "getHeight",
+				"name": "getAddress",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address",
 						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getAll",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "number",
+								"type": "uint256"
+							},
+							{
+								"internalType": "address",
+								"name": "account",
+								"type": "address"
+							}
+						],
+						"internalType": "struct Mapping.Wallet[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_n",
 						"type": "uint256"
+					}
+				],
+				"name": "getWallet",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "number",
+								"type": "uint256"
+							},
+							{
+								"internalType": "address",
+								"name": "account",
+								"type": "address"
+							}
+						],
+						"internalType": "struct Mapping.Wallet",
+						"name": "",
+						"type": "tuple"
 					}
 				],
 				"stateMutability": "view",
@@ -33,11 +99,16 @@
 					},
 					{
 						"internalType": "uint256",
-						"name": "_height",
+						"name": "_number",
 						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "_account",
+						"type": "address"
 					}
 				],
-				"name": "setHeight",
+				"name": "setWallet",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -56,7 +127,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts-lecture/230508-test.sol": "Mapping"
+			"contracts-lecture/230511-1.sol": "Mapping"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -70,12 +141,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts-lecture/230508-test.sol": {
-			"keccak256": "0x7510b22f79ae9e7c1ab68d89be40c5e7740cb71baa17949a8cb0d00ae6cf4b81",
+		"contracts-lecture/230511-1.sol": {
+			"keccak256": "0x116867c35c4e4c30acf90ee30e50d6f9f7dee9570b24cc427cb90eaa8a31d576",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://50a3a4058e5d85e882ab3763fe16fe794caaab7fc0b701a3a54b91f06f44a408",
-				"dweb:/ipfs/QmdHLQZsAZiikWHzvZdnWeucvBLQQaKL7ZVmo2URBxkGw8"
+				"bzz-raw://e3195c9b7e5bf2c3e69e1415010a900caf0e4ed4a10a31c722ef7cb6f33f213b",
+				"dweb:/ipfs/QmUWQDR2MQpZicPtA5TpXG5E5QjjEjinAn4TzzZsXzF7aj"
 			]
 		}
 	},

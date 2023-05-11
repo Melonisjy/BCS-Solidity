@@ -1,0 +1,132 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "s1",
+						"type": "string"
+					}
+				],
+				"name": "compare1",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "s1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "s2",
+						"type": "string"
+					}
+				],
+				"name": "compare1",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "s1",
+						"type": "string"
+					}
+				],
+				"name": "compare2",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					},
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "s1",
+						"type": "string"
+					}
+				],
+				"name": "keccak2",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts-test/230511-test1-answer.sol": "STRING_Compare"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts-test/230511-test1-answer.sol": {
+			"keccak256": "0x9d21982f5e7e1068dc4095ad7de2e2e6588422072854e798fafd272baaa28780",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://813afe19a059d695d6472f7809f2a220f0d8ecdc10e418e1e8859dac60d2f258",
+				"dweb:/ipfs/QmPeEMGko29BgrhFKqYC2iwgv32cF6cXq2QuxFzQqQAF3v"
+			]
+		}
+	},
+	"version": 1
+}

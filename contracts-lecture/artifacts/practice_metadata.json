@@ -59,6 +59,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [],
+				"name": "getFClass",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
 				"inputs": [
 					{
 						"internalType": "string",
@@ -247,11 +260,11 @@
 	},
 	"sources": {
 		"contracts-lecture/230511-practice.sol": {
-			"keccak256": "0xb4d6ba2e79bb03b414f944eab36a1ea6049c036c3564a499e56ce604708851fb",
+			"keccak256": "0xeacb7dc0f6aa6334951b04b7b7c85e2ac45087d945ca164fe69acf6692764971",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://96c0adcff8a230f4fb8f15996d128efa09ce96907a2f0c1b1789cd6aeebb02c1",
-				"dweb:/ipfs/QmYUtDcUBaBspeCnLH1HE199Gwe5Z3iNMmW1MjpULtkGK7"
+				"bzz-raw://ebac0e61c52d02da4256349a3d3ff32ee80bc6b53c333a708f09c3c5f79ca3b8",
+				"dweb:/ipfs/QmRfRnPvLqrCDuy3E2h8csuJcnk7P1GbgwVpTrcLUS2zM5"
 			]
 		}
 	},

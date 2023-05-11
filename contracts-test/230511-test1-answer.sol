@@ -81,10 +81,10 @@ contract QUIZ1 {
     }
 
     // 보충반 조회 기능 - F 학점을 받은 학생들의 숫자와 그 전체 정보를 반환  
-    /*function FClass() public view returns(Student[] memory) {
+    function FClass() public view returns(uint, Student[] memory) {
         uint num;
 
-        Student[] memory F_students = new Student[](num);
+        // Student[] memory F_students = new Student[](num);
 
         for (uint i=0; i<students.length; i++) {
             if (keccak256(bytes(students[i].credit)) == keccak256(bytes("F"))) {
@@ -93,13 +93,15 @@ contract QUIZ1 {
         }
 
         uint _num;
+        Student[] memory F_students = new Student[](_num);
         for (uint i=0; i<students.length; i++) {
             if (keccak256(bytes(students[i].credit)) == keccak256(bytes("F"))) {
                 F_students[_num] = students[i];
                 _num ++;
             }
         }
-    }*/
+        return (_num, F_students);
+    }
 
     
 }

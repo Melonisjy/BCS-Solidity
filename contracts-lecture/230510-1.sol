@@ -38,4 +38,6 @@ contract note{
     function getStudent(string memory _Teacher) public view returns(Student[] memory) {
         return Teacher_Student[_Teacher];
     }
+
+    
 }

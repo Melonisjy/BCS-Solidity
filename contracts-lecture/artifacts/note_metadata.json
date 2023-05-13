@@ -6,120 +6,58 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "_n",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"name": "getName",
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getA",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "address",
 						"name": "",
-						"type": "string"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_Teacher",
-						"type": "string"
-					}
-				],
-				"name": "getStudent",
+				"inputs": [],
+				"name": "getOwner",
 				"outputs": [
 					{
-						"components": [
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							},
-							{
-								"internalType": "uint256",
-								"name": "number",
-								"type": "uint256"
-							},
-							{
-								"internalType": "string[]",
-								"name": "classes",
-								"type": "string[]"
-							}
-						],
-						"internalType": "struct note.Student[]",
+						"internalType": "address",
 						"name": "",
-						"type": "tuple[]"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_n",
-						"type": "uint256"
-					}
-				],
-				"name": "getStudents",
-				"outputs": [
-					{
-						"components": [
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							},
-							{
-								"internalType": "uint256",
-								"name": "number",
-								"type": "uint256"
-							},
-							{
-								"internalType": "string[]",
-								"name": "classes",
-								"type": "string[]"
-							}
-						],
-						"internalType": "struct note.Student",
-						"name": "",
-						"type": "tuple"
-					}
-				],
-				"stateMutability": "view",
+				"inputs": [],
+				"name": "setA",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_Teacher",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_number",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string[]",
-						"name": "_classes",
-						"type": "string[]"
-					}
-				],
-				"name": "setStudent",
+				"inputs": [],
+				"name": "setOwner",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -127,22 +65,17 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "_aa",
-						"type": "string"
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
 					},
 					{
 						"internalType": "uint256",
-						"name": "_n",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_number",
+						"name": "_amount",
 						"type": "uint256"
 					}
 				],
-				"name": "setStudent2",
+				"name": "transferTo",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -150,25 +83,19 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					},
-					{
 						"internalType": "uint256",
-						"name": "_number",
+						"name": "_amount",
 						"type": "uint256"
-					},
-					{
-						"internalType": "string[]",
-						"name": "_classes",
-						"type": "string[]"
 					}
 				],
-				"name": "setStudents",
+				"name": "transferToOwner",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -184,7 +111,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts-lecture/230510-1.sol": "note"
+			"contracts-lecture/230512-1.sol": "note"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -198,12 +125,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts-lecture/230510-1.sol": {
-			"keccak256": "0x3e4e7c4984e18cf28e26dd326828eb5d749e0e4be982be60d47d1eeaa093f820",
+		"contracts-lecture/230512-1.sol": {
+			"keccak256": "0xa7b5833bd813cceecbfa84fd9306fe9b8fff6e0c9cd5f50d16188e6115ab2cb8",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://a70fa061ed23624ab70ead9385c8cc7e173e37be0ddcc32f4619c4bb75923d9f",
-				"dweb:/ipfs/QmapvwjN99EwPaGVa5LY1TG3RVp2GPrtriTMGFC6Kbwacs"
+				"bzz-raw://95e50c35a6210b2f7566987608d38cb656212fa1021a7ee6e9a934b0a4d99f70",
+				"dweb:/ipfs/QmZUD5yZgmEZyhdxCmCsef5LDWRs8mKZkfJwTa6wa4on2T"
 			]
 		}
 	},

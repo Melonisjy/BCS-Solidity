@@ -10,10 +10,95 @@
 				"name": "FClass",
 				"outputs": [
 					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "number",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "score",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "credit",
+								"type": "string"
+							},
+							{
+								"internalType": "string[]",
+								"name": "classes",
+								"type": "string[]"
+							}
+						],
+						"internalType": "struct QUIZ1.Student[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "FClass2",
+				"outputs": [
+					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "number",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "score",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "credit",
+								"type": "string"
+							},
+							{
+								"internalType": "string[]",
+								"name": "classes",
+								"type": "string[]"
+							}
+						],
+						"internalType": "struct QUIZ1.Student[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "SClass",
+				"outputs": [
 					{
 						"components": [
 							{
@@ -196,8 +281,14 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "getStudentNumber",
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "getStudentScore",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -209,14 +300,8 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
-					}
-				],
-				"name": "getStudentScore",
+				"inputs": [],
+				"name": "getStudentsNumber",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -311,11 +396,11 @@
 	},
 	"sources": {
 		"contracts-test/230511-test1-answer.sol": {
-			"keccak256": "0xe464af10765723f1d955b53eb4785191f93a024bff159c918fab37016e61df76",
+			"keccak256": "0x74e165353212b1510835667c49e3a17f4fef9e618d08ca34eefaa3ab9cef50f7",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://a6ca2db906b0bd9aee328b08905b963ac994789ca84a6d7b5e59a247c9af7b82",
-				"dweb:/ipfs/QmdU2XZigCEdwVrX6xcgve574jtWkVV2m77sMRFfVsQ6M9"
+				"bzz-raw://36f15a09aa252d177922b7cbb85e7359d955c992928a59a9dfe1d0bdd36a90ab",
+				"dweb:/ipfs/QmZeiznzEvWxfNNVSfTocLcPDgzynFTeeszByFfH9m7x4n"
 			]
 		}
 	},

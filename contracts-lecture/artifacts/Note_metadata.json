@@ -7,51 +7,80 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "forLoop",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "pure",
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "forLoop2",
+				"name": "getA",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address",
 						"name": "",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
+						"type": "address"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "forLoop3",
+				"name": "getOwner",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address payable",
 						"name": "",
-						"type": "uint256"
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setA",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
 					},
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "_amount",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"name": "transferTo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "transferToOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -68,7 +97,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts-lecture/230509-4.sol": "Note"
+			"contracts-lecture/230512-1.sol": "Note"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -82,12 +111,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts-lecture/230509-4.sol": {
-			"keccak256": "0x9fe72bf47249d30dfd820de37a497fffebdaa65788692ce9f5e22bafd6abe5d9",
+		"contracts-lecture/230512-1.sol": {
+			"keccak256": "0xe09bc64e3c2fe841ac4f23bceb4b7d78101d255a901ee10753e9518b05e721ba",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://41f31f24f01d5aed0da96016704a6d2f440523b7504fe912254d6aeb4a15bdef",
-				"dweb:/ipfs/QmbaLP7exFnhY88kQvdCf7VmVuGEWqj4PBnZKCksnFt8PJ"
+				"bzz-raw://93a63205e6ba0014ee905e51373aeb10e57652499eb4bac4e57403b3d874f882",
+				"dweb:/ipfs/QmRMjBqnVhRNuEKzFr4oQP2KwdkkzFhswQZwKF23TEGMZF"
 			]
 		}
 	},

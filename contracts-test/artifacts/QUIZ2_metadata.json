@@ -9,16 +9,16 @@
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "_id",
+						"name": "_ID",
 						"type": "string"
 					},
 					{
 						"internalType": "string",
-						"name": "_password",
+						"name": "_PW",
 						"type": "string"
 					}
 				],
-				"name": "login",
+				"name": "logIn",
 				"outputs": [
 					{
 						"internalType": "bool",
@@ -33,24 +33,37 @@
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "_id",
+						"name": "_ID",
+						"type": "string"
+					}
+				],
+				"name": "logIn2",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_ID",
 						"type": "string"
 					},
 					{
 						"internalType": "string",
-						"name": "_password",
+						"name": "_PW",
 						"type": "string"
 					}
 				],
-				"name": "signUp",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
+				"name": "signIn",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -67,7 +80,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts-test/230512-test1.sol": "test"
+			"contracts-test/230512-test1-answer.sol": "QUIZ2"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -81,12 +94,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts-test/230512-test1.sol": {
-			"keccak256": "0x6e8df925e55275f452d7a2c469c8b818ecc6b0aa65c0209a086e18adf0b10a3f",
+		"contracts-test/230512-test1-answer.sol": {
+			"keccak256": "0x3fea442a8c5cf2117ab7b17b506595a4317fb5978bf09e72427aa50d5117a40f",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://861c938f0fdbd7bba5fc3a267121e28ad1d7fce7dd83929c7de3416f186a4ce4",
-				"dweb:/ipfs/QmXhXdC1wJz1roEMvaT6u8q1SsvkenyeeNg7ksgGNirsAN"
+				"bzz-raw://4f67573bbc50a569f007fa75567f23e4c5508ed8102a71b32a21d5744840f215",
+				"dweb:/ipfs/QmSVy6x423vTqFJivbaS9oMqh8Tt8NuFTwDtcB3bx1URAv"
 			]
 		}
 	},

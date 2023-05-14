@@ -82,7 +82,7 @@ contract QUIZ1 {
     }
 
     // * 보충반 조회 기능 - F 학점을 받은 학생들의 숫자와 그 전체 정보를 반환
-    function FClass() public view returns(Student[] memory) {
+    function FClass() public view returns(uint, Student[] memory) {
         uint num;
 
         for(uint i=0; i<students.length;i++) {
@@ -102,7 +102,7 @@ contract QUIZ1 {
             _num++;
         }
 
-        return F_Storage;
+        return (num, F_Storage);
     }
 
     function FClass2() public view returns(/*Student[] memory*/ uint, uint, Student[] memory) {

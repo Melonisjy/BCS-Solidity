@@ -7,7 +7,7 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "get",
+				"name": "getNumbers",
 				"outputs": [
 					{
 						"internalType": "uint256[]",
@@ -26,7 +26,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "push",
+				"name": "pushNumber",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -59,7 +59,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts-test/230511-test1-answer.sol": "Sorting"
+			"contracts-practice/230514-practice.sol": "Sorting"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -73,12 +73,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts-test/230511-test1-answer.sol": {
-			"keccak256": "0xfffa9c56d2984d81c517f687745dc80353bc088026451877ce3649fcceb5a34f",
+		"contracts-practice/230514-practice.sol": {
+			"keccak256": "0xce6e4d1a2720c78e83c8ccd4d19e68333921a6ff04c3f1fb28e3a26370d71266",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://e9f009649c389998a05a7263f6bab655777b0ab4af30f09a2eade42242a90c79",
-				"dweb:/ipfs/QmUT61YU82aNaYAUnNaExQjozJgKk8ZDfU7Tg2Pa6S9xUF"
+				"bzz-raw://5374cf3a2abd24d649cc17f204feeb872b2a1ec0a17f0be0ac37b03e9601ac5f",
+				"dweb:/ipfs/QmQB9uxNKmMHhrNsQMMBrsN5UWrPayzMU5nisd3Cku3SKp"
 			]
 		}
 	},

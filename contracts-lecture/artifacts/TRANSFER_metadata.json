@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "toContract",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_address",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "tranferTo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts-lecture/230515-2.sol": "TRANSFER"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts-lecture/230515-2.sol": {
+			"keccak256": "0x938c6e618cba61f27f4fba75a4873e5e97346b5e7d7baab298d97bf77555ce5e",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://fff48af290d1269b6f257ceeaccd8f0f21cdd546dcb8185f571eb861242d4edb",
+				"dweb:/ipfs/QmcK5K3pTzgkxyHJXnnLtf2FYGk3HL2a68Nb5jAzPpAnF7"
+			]
+		}
+	},
+	"version": 1
+}

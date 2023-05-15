@@ -18,6 +18,30 @@
 						"type": "string"
 					}
 				],
+				"name": "getHash",
+				"outputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_ID",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_PW",
+						"type": "string"
+					}
+				],
 				"name": "logIn",
 				"outputs": [
 					{
@@ -26,7 +50,7 @@
 						"type": "bool"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -65,6 +89,60 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_ID",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_PW",
+						"type": "string"
+					}
+				],
+				"name": "signOut",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_ID",
+						"type": "string"
+					}
+				],
+				"name": "userInfo",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"components": [
+							{
+								"internalType": "bytes32",
+								"name": "hash",
+								"type": "bytes32"
+							},
+							{
+								"internalType": "uint256",
+								"name": "attempts",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct QUIZ2.User",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -95,11 +173,11 @@
 	},
 	"sources": {
 		"contracts-test/230512-test1-answer.sol": {
-			"keccak256": "0x3fea442a8c5cf2117ab7b17b506595a4317fb5978bf09e72427aa50d5117a40f",
+			"keccak256": "0xa86a00d5103fe7c211fac4aeffb05bf31b594eb88c2f7dfff2bea3c087f1f516",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://4f67573bbc50a569f007fa75567f23e4c5508ed8102a71b32a21d5744840f215",
-				"dweb:/ipfs/QmSVy6x423vTqFJivbaS9oMqh8Tt8NuFTwDtcB3bx1URAv"
+				"bzz-raw://99ab769fa5311e6b9b7173b34f0798ffa6b7fbde12633bd6e699850b1901c389",
+				"dweb:/ipfs/QmQZYiBfsLmwRe6co69iyVo1kqAFQ7VAL8DfeWX5mJZsow"
 			]
 		}
 	},

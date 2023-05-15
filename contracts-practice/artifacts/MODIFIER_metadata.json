@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					}
+				],
+				"name": "getCigar",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts-practice/230515-practice.sol": "MODIFIER"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts-practice/230515-practice.sol": {
+			"keccak256": "0xb1b04bcfac8002174fe81d6e0c9a13b54c32e38a4ff5b09eaf32d7a4000ea716",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://7c5ce153f70c87a3cdda671cf4accc390e8e261ecf5bf52454ba8cad2d6499b5",
+				"dweb:/ipfs/QmQ4ZYiwJCKfMWovLL4ici7dQfgFgvbyN6XfNnQZX5t8Kr"
+			]
+		}
+	},
+	"version": 1
+}

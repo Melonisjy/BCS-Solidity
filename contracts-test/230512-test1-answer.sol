@@ -36,6 +36,7 @@ contract QUIZ2 {
     }
     // * 회원가입 기능 - 새롭게 회원가입할 수 있는 기능
     function signIn(string memory _ID, string memory _PW) public {
+        
         // * 회원가입시 이미 존재한 아이디 체크 여부 기능 - 이미 있는 아이디라면 회원가입 중지
         //require(ID_PW[_ID].hash == "", "Provided ID is already being used.");
         require(ID_PW[_ID].hash == 0x0000000000000000000000000000000000000000000000000000000000000000, "Provided ID is already being used.");

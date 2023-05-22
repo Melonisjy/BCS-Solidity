@@ -35,6 +35,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_title",
+						"type": "string"
+					}
+				],
+				"name": "checkStatus",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "count",
 				"outputs": [
@@ -248,7 +261,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts-test/230518-test1-answer.sol": "Q6"
+			"contracts-quiz/\b230518-QUIZ6-answer.sol": "Q6"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -262,12 +275,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts-test/230518-test1-answer.sol": {
-			"keccak256": "0x59e9ffb4dd58a07649671839a07734a282584006c0cee1e95ca0bcbe1d4f8fc6",
+		"contracts-quiz/\b230518-QUIZ6-answer.sol": {
+			"keccak256": "0xaadf1ffa517d5c05a50a7e2e655d76b54eebc60025432a3d63f2c6aba5b2dd2d",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://ab4fa813a32594333d65a1a5bcaecc5adf359b38068e155badff1b5b05cc1dd2",
-				"dweb:/ipfs/QmWyAGB9eAgt79xtbvfdxUBekDaKaMzX9ax5GK9tpyhMuS"
+				"bzz-raw://b55543184c5d6a1881ae9c40a44c8dc5120678a3fec1f771a56c38a3e4cb551e",
+				"dweb:/ipfs/QmeeAhWgBYCuPjxAnbdJLjiLbSRQ4CWtTZq51eeFdqCHPy"
 			]
 		}
 	},

@@ -1,0 +1,62 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_b",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts-basic/week3.sol": "_29"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts-basic/week3.sol": {
+			"keccak256": "0xd7312856137ab7921bf2283e551d87d2d2308f922e50ea40b6e7de5018516c92",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://cef60675832543d423e7b07c5d865c7b9fd8954bff29b4e2224fb0e5a0f8665e",
+				"dweb:/ipfs/QmZHwNqTQpahuwkDh5CSZ2iSKNPbjdqsZrM1LF6wUtN1n1"
+			]
+		}
+	},
+	"version": 1
+}

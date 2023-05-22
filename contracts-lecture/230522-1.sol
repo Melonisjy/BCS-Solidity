@@ -51,7 +51,7 @@ contract INITIALIZATION {
         group2.push(set2(new uint[](0),new string[](0), _i));
     }
 
-    function getG2() public  view returns(set2[] memory) {
+    function getG2() public view returns(set2[] memory) {
         return group2; // 0: tuple(uint256[],string[],bytes1[4])[]:
     }
 

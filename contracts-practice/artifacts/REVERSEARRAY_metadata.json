@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "_n",
+						"type": "uint256[]"
+					}
+				],
+				"name": "reverse1",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "_n",
+						"type": "uint256[]"
+					}
+				],
+				"name": "reverse2",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts-practice/230518-practice.sol": "REVERSEARRAY"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts-practice/230518-practice.sol": {
+			"keccak256": "0x4130c2837bf8415b57fcc5edde905ab3e649dcd01aa87d434402afab40c656d8",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a2633dbf6e2053be8b262bffb9b7df5cbb704fb67d92529ba8acb4e2da4caae6",
+				"dweb:/ipfs/QmfReRNQ5EWszrtBtGNhNVkd3XUPXWzoGMmXsgA7xtMjgK"
+			]
+		}
+	},
+	"version": 1
+}

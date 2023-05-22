@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"name": "onlyEven",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts-basic/week2.sol": "week2"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts-basic/week2.sol": {
+			"keccak256": "0x7c54f08bc8e0fa283cc51b759e9885c68cdb869541088aeecf34a360164b9dc4",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://9e90b5cb75457f6c55ee352e0788d2dc3373ca1e66b1c885a29ee824761d9bab",
+				"dweb:/ipfs/QmaWPitPS2eqTghHSkBjX8HyZZMKcr4wRHkGWXDNXSLM18"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "husbandAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "husbandAddress2",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts-practice/230516-practice.sol": "MOM"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts-practice/230516-practice.sol": {
+			"keccak256": "0x979df427748857ddf9edf7ba54a1b2be2b18053b2eb0b016bcf2c5e03ccf9f0e",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://d6f98fe35712d13cb33c01d2f5f9084edde64a0138b60586749a8a6d44395471",
+				"dweb:/ipfs/QmdPv1Urcj5CwKD5vDu1oQgAKmeF422a7sekUK5wXgmyvS"
+			]
+		}
+	},
+	"version": 1
+}

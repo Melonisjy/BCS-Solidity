@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "setBalance",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts-test/230518-test1-answer.sol": "doubleMapping"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts-test/230518-test1-answer.sol": {
+			"keccak256": "0xdb1d5b4ef40876d3b8de559c6bf7eb05934fa28e878a18a2b4fcf9eff3402f08",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://c9177ab66ef1cd4e91a7e6cac9f899eeb00e9bfbd20675a60ed9543f3e0b2319",
+				"dweb:/ipfs/QmZEF9W2nfDJ3eMNSFNQJTK1og18DyboLTwKmADC47tJPd"
+			]
+		}
+	},
+	"version": 1
+}

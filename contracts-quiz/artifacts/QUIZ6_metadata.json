@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts-test/230518-test1-answer.sol": "QUIZ6"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts-test/230518-test1-answer.sol": {
+			"keccak256": "0x73f5c9d5ab4e3207a229528108cf5af8ee9595b7e7b178047c27c377d3da8215",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://2019c12727effff83d64f9db34703eaf873582185a4a800dd1e56660a48edd66",
+				"dweb:/ipfs/Qmc1bmH42jgiwSFtRj5trxuFeUw5B3XJrM6v2TAdX5WPtp"
+			]
+		}
+	},
+	"version": 1
+}

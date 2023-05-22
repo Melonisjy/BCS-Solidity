@@ -1,0 +1,234 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "S1",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "b",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "c",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "d",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "bytes",
+						"name": "e",
+						"type": "bytes"
+					},
+					{
+						"internalType": "bool",
+						"name": "f",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getA",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "bytes1",
+						"name": "",
+						"type": "bytes1"
+					},
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					},
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getG",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
+					},
+					{
+						"internalType": "bytes1[4]",
+						"name": "",
+						"type": "bytes1[4]"
+					},
+					{
+						"internalType": "uint256[4]",
+						"name": "",
+						"type": "uint256[4]"
+					},
+					{
+						"internalType": "address[4]",
+						"name": "",
+						"type": "address[4]"
+					},
+					{
+						"internalType": "string[4]",
+						"name": "",
+						"type": "string[4]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getG2",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256[]",
+								"name": "g",
+								"type": "uint256[]"
+							},
+							{
+								"internalType": "string[]",
+								"name": "h",
+								"type": "string[]"
+							},
+							{
+								"internalType": "bytes1[4]",
+								"name": "i",
+								"type": "bytes1[4]"
+							}
+						],
+						"internalType": "struct INITIALIZATION.set2[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getS2",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256[]",
+								"name": "g",
+								"type": "uint256[]"
+							},
+							{
+								"internalType": "string[]",
+								"name": "h",
+								"type": "string[]"
+							},
+							{
+								"internalType": "bytes1[4]",
+								"name": "i",
+								"type": "bytes1[4]"
+							}
+						],
+						"internalType": "struct INITIALIZATION.set2",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pushG1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pushG2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts-test/230518-test1-answer.sol": "INITIALIZATION"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts-test/230518-test1-answer.sol": {
+			"keccak256": "0x59e9ffb4dd58a07649671839a07734a282584006c0cee1e95ca0bcbe1d4f8fc6",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://ab4fa813a32594333d65a1a5bcaecc5adf359b38068e155badff1b5b05cc1dd2",
+				"dweb:/ipfs/QmWyAGB9eAgt79xtbvfdxUBekDaKaMzX9ax5GK9tpyhMuS"
+			]
+		}
+	},
+	"version": 1
+}

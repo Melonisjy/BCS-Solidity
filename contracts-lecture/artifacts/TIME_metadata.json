@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "currentTime",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "currentTime2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts-lecture/230522-1.sol": "TIME"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts-lecture/230522-1.sol": {
+			"keccak256": "0xb62439ba9ff8ee247482a2e8bb18fc9711f2bf97b055f7874e33ecbbc3b89eec",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://8e58048e3972fbdc3261820b7c32eaaec49c93b3161d5d60f360faf04eeb7023",
+				"dweb:/ipfs/QmWnqzhUkUE9S4pqMPpWh33nwckLvg6yUntjbqknpgjqTJ"
+			]
+		}
+	},
+	"version": 1
+}

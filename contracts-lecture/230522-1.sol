@@ -95,7 +95,7 @@ contract multipleMapping {
     }
 
     function setBankAccounts2(string calldata _city, string calldata _state, uint number) public {
-        bankAccounts3[_city][_state][number] = B;
+        bankAccounts3[_city][_state][number] = B; 
     }
 
     function getbankAccounts(address _addr, string calldata _name) public view returns(uint) {

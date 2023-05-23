@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getCurrentTime",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "time",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts-quiz/\b230518-QUIZ6-answer.sol": "TIMESTAMP"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts-quiz/\b230518-QUIZ6-answer.sol": {
+			"keccak256": "0x23f0daecdc4305ec89215914cd9ba8c70ae90a769633465a8275bff103005341",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://b75548a1ff554c896d9f95b50311d087fa25ed38600ddd062e182667ad398f32",
+				"dweb:/ipfs/QmRpjRqoeSsv63Jyh668rLfDJAWY2RXgvjsvxaeuZk6Pu5"
+			]
+		}
+	},
+	"version": 1
+}

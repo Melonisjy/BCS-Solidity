@@ -35,19 +35,6 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_title",
-						"type": "string"
-					}
-				],
-				"name": "checkStatus",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
 				"inputs": [],
 				"name": "count",
 				"outputs": [
@@ -261,7 +248,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts-quiz/\b230518-QUIZ6-answer.sol": "Q6"
+			"contracts-quiz/230518-QUIZ6(array)-answer.sol": "Q6"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -275,12 +262,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts-quiz/\b230518-QUIZ6-answer.sol": {
-			"keccak256": "0xaadf1ffa517d5c05a50a7e2e655d76b54eebc60025432a3d63f2c6aba5b2dd2d",
+		"contracts-quiz/230518-QUIZ6(array)-answer.sol": {
+			"keccak256": "0x4bff7b9a74c62716b24e6a3a8efdc81ddaf3404d2918dd1790ba863d5b284dc5",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b55543184c5d6a1881ae9c40a44c8dc5120678a3fec1f771a56c38a3e4cb551e",
-				"dweb:/ipfs/QmeeAhWgBYCuPjxAnbdJLjiLbSRQ4CWtTZq51eeFdqCHPy"
+				"bzz-raw://eeea741b508250856bd0ae6f10de45b1ba6d6b9d1d7ea84364cfede5307fc4f0",
+				"dweb:/ipfs/QmQ6tMuMDKf4KMDQJUZp4pR7kkc94B51fNRhaxZfpJCY54"
 			]
 		}
 	},

@@ -18,7 +18,7 @@
 						"type": "uint256"
 					}
 				],
-				"name": "add",
+				"name": "multiply",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -43,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts-lecture/230523-b.sol": "B"
+			"contracts-lecture/d/dd.sol": "D_Contract"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -57,12 +57,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts-lecture/230523-b.sol": {
-			"keccak256": "0x534ba3ff2905287dad0b430db5f63af00b6b3535c0036db26aaf779359f10085",
+		"contracts-lecture/d/dd.sol": {
+			"keccak256": "0xa8f868a0dcb44dc4287fcf1786ef0709eaa1ed55797e40703694b119808be269",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://526aa2d9e2da4059b77b76dd16f88f8ee9f00e2cf8205d21d305d64abf803869",
-				"dweb:/ipfs/QmcLsLZBeoXxnXUnM2ZWgTHq6c1E8vY9V5tWiWXyx2dGQa"
+				"bzz-raw://45a46c53f5bd61a44f314f81e5aed6f648da4ee30b49a49cc9a3d2c43b8af7c9",
+				"dweb:/ipfs/QmZCPv6wFMVrU5xeYhLt6j9wJvVqnWjUR8gTjD7Ubbpvk6"
 			]
 		}
 	},

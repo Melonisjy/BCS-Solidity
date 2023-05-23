@@ -6,312 +6,67 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "getAllStudents",
-				"outputs": [
+				"inputs": [
 					{
-						"components": [
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							},
-							{
-								"internalType": "uint256",
-								"name": "number",
-								"type": "uint256"
-							},
-							{
-								"internalType": "uint256",
-								"name": "score",
-								"type": "uint256"
-							},
-							{
-								"internalType": "string",
-								"name": "credit",
-								"type": "string"
-							},
-							{
-								"internalType": "string[]",
-								"name": "classes",
-								"type": "string[]"
-							}
-						],
-						"internalType": "struct practice.Student[]",
-						"name": "",
-						"type": "tuple[]"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getAllStudentsNum",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getAvg",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getFClass",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
+						"internalType": "string",
+						"name": "_a",
+						"type": "string"
 					},
 					{
-						"components": [
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							},
-							{
-								"internalType": "uint256",
-								"name": "number",
-								"type": "uint256"
-							},
-							{
-								"internalType": "uint256",
-								"name": "score",
-								"type": "uint256"
-							},
-							{
-								"internalType": "string",
-								"name": "credit",
-								"type": "string"
-							},
-							{
-								"internalType": "string[]",
-								"name": "classes",
-								"type": "string[]"
-							}
-						],
-						"internalType": "struct practice.Student[]",
-						"name": "",
-						"type": "tuple[]"
+						"internalType": "string",
+						"name": "_b",
+						"type": "string"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getSClass",
+				"name": "concat1",
 				"outputs": [
 					{
-						"components": [
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							},
-							{
-								"internalType": "uint256",
-								"name": "number",
-								"type": "uint256"
-							},
-							{
-								"internalType": "uint256",
-								"name": "score",
-								"type": "uint256"
-							},
-							{
-								"internalType": "string",
-								"name": "credit",
-								"type": "string"
-							},
-							{
-								"internalType": "string[]",
-								"name": "classes",
-								"type": "string[]"
-							}
-						],
-						"internalType": "struct practice.Student[]",
+						"internalType": "string",
 						"name": "",
-						"type": "tuple[]"
+						"type": "string"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "_name",
+						"name": "_a",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_b",
 						"type": "string"
 					}
 				],
-				"name": "getScore",
+				"name": "concat2",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "_name",
+						"name": "_a",
 						"type": "string"
-					}
-				],
-				"name": "getStudentByName",
-				"outputs": [
-					{
-						"components": [
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							},
-							{
-								"internalType": "uint256",
-								"name": "number",
-								"type": "uint256"
-							},
-							{
-								"internalType": "uint256",
-								"name": "score",
-								"type": "uint256"
-							},
-							{
-								"internalType": "string",
-								"name": "credit",
-								"type": "string"
-							},
-							{
-								"internalType": "string[]",
-								"name": "classes",
-								"type": "string[]"
-							}
-						],
-						"internalType": "struct practice.Student",
-						"name": "",
-						"type": "tuple"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_number",
-						"type": "uint256"
-					}
-				],
-				"name": "getStudentByNumber",
-				"outputs": [
-					{
-						"components": [
-							{
-								"internalType": "string",
-								"name": "name",
-								"type": "string"
-							},
-							{
-								"internalType": "uint256",
-								"name": "number",
-								"type": "uint256"
-							},
-							{
-								"internalType": "uint256",
-								"name": "score",
-								"type": "uint256"
-							},
-							{
-								"internalType": "string",
-								"name": "credit",
-								"type": "string"
-							},
-							{
-								"internalType": "string[]",
-								"name": "classes",
-								"type": "string[]"
-							}
-						],
-						"internalType": "struct practice.Student",
-						"name": "",
-						"type": "tuple"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
+					},
 					{
 						"internalType": "string",
-						"name": "_name",
+						"name": "_b",
 						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_score",
-						"type": "uint256"
-					},
-					{
-						"internalType": "string[]",
-						"name": "_classes",
-						"type": "string[]"
 					}
 				],
-				"name": "pushStudent",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "selfEval",
-				"outputs": [
-					{
-						"internalType": "bool",
-						"name": "",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_score",
-						"type": "uint256"
-					}
-				],
-				"name": "setCredit",
+				"name": "concat3",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -336,7 +91,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts-practice/230513-practice.sol": "practice"
+			"contracts-practice/230523-practice.sol": "practice"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -350,12 +105,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts-practice/230513-practice.sol": {
-			"keccak256": "0x15bf1d3159ee4b3ae7f0526dd82426c543464089791751de1412fa98afbb10cb",
+		"contracts-practice/230523-practice.sol": {
+			"keccak256": "0x3ccc217c7c5c27ced569127b19cc4be100524c5f2b2d805fd65cc9c0c2f0378d",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://d1be4e0b703df75ccd447a27c9fed750df7c4e6c9d45521465383f4eeefb78ed",
-				"dweb:/ipfs/Qmcp5xmTknM5CcoGbB2W4ZT7KpSVtznWMR3FE9MSXxpTMF"
+				"bzz-raw://5cbbcc7b2ca3307f1d67b3c9144272b142e7005d5cc3d7979073e843c7b41556",
+				"dweb:/ipfs/QmZhEoU1p9K6XdjhJDpiDB2q7PG5qnSsdRHYyQs1BJQ6JZ"
 			]
 		}
 	},

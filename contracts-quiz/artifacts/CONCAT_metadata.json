@@ -9,17 +9,41 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_a",
+						"name": "a",
+						"type": "uint256"
+					}
+				],
+				"name": "concat",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_n",
+						"type": "uint256"
+					}
+				],
+				"name": "concat6",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
 						"type": "uint256"
 					},
 					{
 						"internalType": "uint256",
-						"name": "_b",
+						"name": "",
 						"type": "uint256"
-					}
-				],
-				"name": "add",
-				"outputs": [
+					},
 					{
 						"internalType": "uint256",
 						"name": "",
@@ -33,21 +57,35 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "_a",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_b",
+						"name": "_n",
 						"type": "uint256"
 					}
 				],
-				"name": "multi",
+				"name": "concat7",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_n",
 						"type": "uint256"
+					}
+				],
+				"name": "getConcat",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -67,7 +105,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts-lecture/230523-a.sol": "A"
+			"contracts-quiz/230522-QUIZ7-answer.sol": "CONCAT"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -81,28 +119,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts-lecture/230523-a.sol": {
-			"keccak256": "0x82ebb04a3deb04007426539c324c505294fbd1e387a2558df588c0f3719fd422",
+		"contracts-quiz/230522-QUIZ7-answer.sol": {
+			"keccak256": "0x9988aef33f5b05def224e9b61a3fa37a7e0f82fe835ed6f846ed5540484760ca",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://189deb467237b8478ec3449a6f6bbd504e0da7adbf8bf4f320490bff4594b64f",
-				"dweb:/ipfs/QmYvdKCwZjGDfporgQYpGtKugh3R4Y5n99qNsWp3HEeuob"
-			]
-		},
-		"contracts-lecture/230523-b.sol": {
-			"keccak256": "0xc95266a99cc8a1c980f90676ec3a54d1872bb6271821436aec079fa019c6f6cf",
-			"license": "GPL-3.0",
-			"urls": [
-				"bzz-raw://ef241b4bee94dd19b1775dca969f291de38eb033af8f9c5d50efc5bf2706abf2",
-				"dweb:/ipfs/QmfHNSJvRYNgEezp9x7yARDpjy2TJGBSZ5jdqmdN9edVXf"
-			]
-		},
-		"contracts-lecture/d/dd.sol": {
-			"keccak256": "0x0a4426a9e69f97d1b5aa1fc2fb28105f5f853e4a4a34fa374d1347cf3cec3181",
-			"license": "GPL-3.0",
-			"urls": [
-				"bzz-raw://a9b7d74cc37ed83159b8601851ee0e6ef6e1e13fe3057ca4a0e3c36d8fc38d4c",
-				"dweb:/ipfs/QmdTUPXdv2wsV8DFd5xGdy2PPoqvMnp87bKEXrxjcHp65W"
+				"bzz-raw://45a8500d7491853d5c9abbe42d3894aab0d38e266203ca7ecdf645c32a9cb78f",
+				"dweb:/ipfs/QmboqMa6hZruX7JhvGsYqPnUvY3RBZkAZYfUCe2JBid2c7"
 			]
 		}
 	},

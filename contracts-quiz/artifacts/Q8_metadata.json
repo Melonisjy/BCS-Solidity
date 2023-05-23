@@ -6,32 +6,54 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_n",
-						"type": "uint256"
-					}
-				],
-				"name": "setTime",
+				"inputs": [],
+				"name": "count",
 				"outputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "c",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "d",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "x",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "y",
+						"type": "string"
+					}
+				],
+				"name": "drawLotto",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			}
 		],
@@ -48,7 +70,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts-quiz/230522-QUIZ7-answer.sol": "QUIZ7"
+			"contracts-quiz/230523-QUIZ8.sol": "Q8"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -62,12 +84,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts-quiz/230522-QUIZ7-answer.sol": {
-			"keccak256": "0xeb49e07acaa7edd7e97029ad870337a76c9353f3c26f8b2f1d347818c3964dfc",
+		"contracts-quiz/230523-QUIZ8.sol": {
+			"keccak256": "0x79d521f1a9e4d444b5e0106959d3e726f544e1b40fb3a02b61518f47aab9fda9",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://3250420ed81a04ec980a21025eae7ec1f370f1ca6723649541bc7695adefcb9d",
-				"dweb:/ipfs/QmWFC23B9PVA3NVRNBtY2UvAUKdYXmakLgrb2mbicvbTji"
+				"bzz-raw://8bf574dd9d8dc946412e44337754f042d603c9ca14969ac5dc56b2a935a3546f",
+				"dweb:/ipfs/QmULNewYd4NcFHfpbcr4tan3vrX3B9dr2bVGFCdEutNsja"
 			]
 		}
 	},

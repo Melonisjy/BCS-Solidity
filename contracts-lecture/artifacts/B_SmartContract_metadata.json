@@ -43,7 +43,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts-lecture/230523-b.sol": "B"
+			"contracts-lecture/230523-b.sol": "B_SmartContract"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -58,11 +58,11 @@
 	},
 	"sources": {
 		"contracts-lecture/230523-b.sol": {
-			"keccak256": "0x534ba3ff2905287dad0b430db5f63af00b6b3535c0036db26aaf779359f10085",
+			"keccak256": "0xc95266a99cc8a1c980f90676ec3a54d1872bb6271821436aec079fa019c6f6cf",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://526aa2d9e2da4059b77b76dd16f88f8ee9f00e2cf8205d21d305d64abf803869",
-				"dweb:/ipfs/QmcLsLZBeoXxnXUnM2ZWgTHq6c1E8vY9V5tWiWXyx2dGQa"
+				"bzz-raw://ef241b4bee94dd19b1775dca969f291de38eb033af8f9c5d50efc5bf2706abf2",
+				"dweb:/ipfs/QmfHNSJvRYNgEezp9x7yARDpjy2TJGBSZ5jdqmdN9edVXf"
 			]
 		}
 	},

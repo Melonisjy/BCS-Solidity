@@ -6,29 +6,22 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "a",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "_n",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "b",
+				"name": "UtoS",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -45,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts-lecture/230516-3.sol": "C"
+			"contracts-lecture/230523-c.sol": "C"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -59,12 +52,28 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts-lecture/230516-3.sol": {
-			"keccak256": "0xbbf11da4535066b66c774c735408c69708edd056440c25ac395f19097c60e6f7",
+		"@openzeppelin/contracts/utils/Strings.sol": {
+			"keccak256": "0xa4d1d62251f8574deb032a35fc948386a9b4de74b812d4f545a1ac120486b48a",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://8c969013129ba9e651a20735ef659fef6d8a1139ea3607bd4b26ddea2d645634",
+				"dweb:/ipfs/QmVhVa6LGuzAcB8qgDtVHRkucn4ihj5UZr8xBLcJkP6ucb"
+			]
+		},
+		"@openzeppelin/contracts/utils/math/Math.sol": {
+			"keccak256": "0xa1e8e83cd0087785df04ac79fb395d9f3684caeaf973d9e2c71caef723a3a5d6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://33bbf48cc069be677705037ba7520c22b1b622c23b33e1a71495f2d36549d40b",
+				"dweb:/ipfs/Qmct36zWXv3j7LZB83uwbg7TXwnZSN1fqHNDZ93GG98bGz"
+			]
+		},
+		"contracts-lecture/230523-c.sol": {
+			"keccak256": "0xc5805ce57a8d4715b1edf93ec3b86cae741e1666be715b6788025b554038a3c7",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://7b633c9c49cde42c386848c056294620e381f876f1fd4d5402c33932ca49fed4",
-				"dweb:/ipfs/QmXdAcuDA353B1ufnkEtDbwNKcqRSbRQqBtnt8bTsFGBgu"
+				"bzz-raw://b0a7552d88654b47b43d403c66d28db114e52cbb6f72a00a517f97e84d207dc8",
+				"dweb:/ipfs/QmYi8QczQ5kuemMXsQLMQk2FK8PAKJ4CzdM8PPhQgk7xmJ"
 			]
 		}
 	},

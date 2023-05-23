@@ -103,6 +103,31 @@ contract multipleMapping {
     }
 }
 
+contract structuWithMapping {
+
+    struct user {
+        string name;
+        address addr;
+        string[] suggested;
+        mapping(string=>bool) voted;
+    }
+
+    user[] Users;
+
+    function setUser(string memory _name) public {
+        user storage _newuser = Users.push();
+    }
+
+	function getUsers() public view returns(uint) {
+        return(Users.length);
+    }
+
+    function getUser(uint _n) public view returns(string memory, address, string[] memory) {
+        return (Users[_n].name, Users[_n].addr, Users[_n].suggested);
+    }
+
+}
+
 contract TIME { // unix 표기법 - 1970-01-01 00:00:00부터
     uint public currentTime = block.timestamp;
 

@@ -8,17 +8,35 @@
 			{
 				"inputs": [
 					{
+						"internalType": "uint256",
+						"name": "_n",
+						"type": "uint256"
+					}
+				],
+				"name": "getUser",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					},
+					{
 						"internalType": "address",
-						"name": "_addr",
+						"name": "",
 						"type": "address"
 					},
 					{
-						"internalType": "string",
-						"name": "_name",
-						"type": "string"
+						"internalType": "string[]",
+						"name": "",
+						"type": "string[]"
 					}
 				],
-				"name": "getbankAccounts",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getUsers",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -30,13 +48,6 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "setBalance",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "string",
@@ -44,30 +55,7 @@
 						"type": "string"
 					}
 				],
-				"name": "setBankAccounts",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_city",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "_state",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "number",
-						"type": "uint256"
-					}
-				],
-				"name": "setBankAccounts2",
+				"name": "setUser",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -86,7 +74,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts-lecture/230522-1.sol": "multipleMapping"
+			"contracts-lecture/230522-1.sol": "structuWithMapping"
 		},
 		"evmVersion": "paris",
 		"libraries": {},

@@ -67,6 +67,4 @@ contract QUIZ2 {
         // require(logIn(_ID, _PW) == true); // 추후 수정
         delete ID_PW[_ID];
     }
-
-
 }

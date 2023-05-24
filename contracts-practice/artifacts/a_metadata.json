@@ -8,38 +8,27 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address",
-						"name": "numberAddress",
-						"type": "address"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "Note",
-				"outputs": [
-					{
-						"internalType": "contract note",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
 						"internalType": "uint256",
-						"name": "_n",
+						"name": "_num",
 						"type": "uint256"
 					}
 				],
-				"name": "change",
+				"name": "changeNum",
 				"outputs": [],
 				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "num",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -56,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts-lecture/230524-1.sol": "note1"
+			"contracts-practice/230524-practice.sol": "a"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -70,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts-lecture/230524-1.sol": {
-			"keccak256": "0x92fc2d67814be6646b70fe5fee56c697589b626934a1c9f603f9bb4507382bfd",
+		"contracts-practice/230524-practice.sol": {
+			"keccak256": "0xc1707918ae9e2a32a664559079ff15bc7614bfc440d6974625ec83861d072446",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://5916bd94cf47a2f3395fdb60fb9ecd7c3653fe4bfb7637fbab9cbacb46971b5d",
-				"dweb:/ipfs/QmVpKzYHgV8pAfWRZk2etdX1PuvekFqc3QM15kV9ZRoHrY"
+				"bzz-raw://04cd4e18df619cb166333fe27df94b4847980049112a0c4787fa9d5674f69c58",
+				"dweb:/ipfs/QmYR8J5yhpNRhCLGz8nVazdQp8T9fXGsat7S4orXV5snHL"
 			]
 		}
 	},

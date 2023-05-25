@@ -93,3 +93,25 @@ contract _29 {
         b = _b;
     }
 }
+
+contract _30 {
+    uint[] a;
+
+    function push(uint _n) public {
+        a.push(_n);
+    }
+
+    function sorting() public {
+        for (uint i=0; i<a.length-1; i++) {
+            for (uint j=i+1; j<a.length; j++) {
+                if (a[i] < a[j]) {
+                    (a[i], a[j]) = (a[j], a[i]);
+                }
+            }
+        }
+    }
+
+    function getA() public view returns(uint[] memory) {
+        return a;
+    }
+}

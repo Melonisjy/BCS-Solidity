@@ -53,11 +53,11 @@
 	},
 	"sources": {
 		"contracts-basic/week3.sol": {
-			"keccak256": "0xd7312856137ab7921bf2283e551d87d2d2308f922e50ea40b6e7de5018516c92",
+			"keccak256": "0x9cb897c3e70ba0e2b8aa2ac38d8c9e935e6845243d643a2cc7e316e1c1d756e6",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://cef60675832543d423e7b07c5d865c7b9fd8954bff29b4e2224fb0e5a0f8665e",
-				"dweb:/ipfs/QmZHwNqTQpahuwkDh5CSZ2iSKNPbjdqsZrM1LF6wUtN1n1"
+				"bzz-raw://31bfeb344c318d2e41a8d66e0bb205fe408710ceb05b9bd9ea07af890faf6ee4",
+				"dweb:/ipfs/Qmf983R3UGtv9iv8pL2tSufkJg1eAwFYjNPC4HUKb6NuyV"
 			]
 		}
 	},

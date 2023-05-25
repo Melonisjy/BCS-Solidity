@@ -9,21 +9,16 @@
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "id",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "pw",
+						"name": "_name",
 						"type": "string"
 					}
 				],
-				"name": "convert",
+				"name": "isAorB",
 				"outputs": [
 					{
-						"internalType": "bytes32",
+						"internalType": "bool",
 						"name": "",
-						"type": "bytes32"
+						"type": "bool"
 					}
 				],
 				"stateMutability": "pure",
@@ -43,7 +38,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts-basic/week3.sol": "_28"
+			"contracts-basic/week4.sol": "_31"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -57,12 +52,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts-basic/week3.sol": {
-			"keccak256": "0x9cb897c3e70ba0e2b8aa2ac38d8c9e935e6845243d643a2cc7e316e1c1d756e6",
+		"contracts-basic/week4.sol": {
+			"keccak256": "0x9f169fd65446f41306515e634d91185a4b068d6b78946042bd994e1fb987c615",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://31bfeb344c318d2e41a8d66e0bb205fe408710ceb05b9bd9ea07af890faf6ee4",
-				"dweb:/ipfs/Qmf983R3UGtv9iv8pL2tSufkJg1eAwFYjNPC4HUKb6NuyV"
+				"bzz-raw://79078f6cd24a3c0e32788c797ae80dd29b202dc89df7d1bf01f27b22950b48b7",
+				"dweb:/ipfs/QmWE4QjDZPpRqV6eRydCbwA8mL8E14XFqFBcrsxfpBoLn9"
 			]
 		}
 	},

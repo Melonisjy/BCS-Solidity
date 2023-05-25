@@ -6,27 +6,36 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "id",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "pw",
-						"type": "string"
-					}
-				],
-				"name": "convert",
+				"inputs": [],
+				"name": "getA",
 				"outputs": [
 					{
-						"internalType": "bytes32",
+						"internalType": "uint256[]",
 						"name": "",
-						"type": "bytes32"
+						"type": "uint256[]"
 					}
 				],
-				"stateMutability": "pure",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_n",
+						"type": "uint256"
+					}
+				],
+				"name": "push",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "sorting",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -43,7 +52,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts-basic/week3.sol": "_28"
+			"contracts-basic/week3.sol": "_30"
 		},
 		"evmVersion": "paris",
 		"libraries": {},

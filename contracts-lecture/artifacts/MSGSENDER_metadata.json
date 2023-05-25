@@ -6,29 +6,13 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "a",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "b",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
 				"inputs": [],
 				"name": "A",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address",
 						"name": "",
-						"type": "uint256"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -39,9 +23,9 @@
 				"name": "B",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address",
 						"name": "",
-						"type": "uint256"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -61,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts-lecture/230525-1.sol": "A"
+			"contracts-lecture/230525-1.sol": "MSGSENDER"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -76,11 +60,11 @@
 	},
 	"sources": {
 		"contracts-lecture/230525-1.sol": {
-			"keccak256": "0x456b5543ca066d1ce998eac57c79b42f44df9178d30ba031739b9033ef3019ad",
+			"keccak256": "0xd9e13dcdc7f8e8e547a818d57a0355d098e388310f516f73b06c14eac68a2241",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b503d950236a1fd31bb110d3122f1f9693edaf04420e9e12aa659821f4bbcc8b",
-				"dweb:/ipfs/Qmcfmuvc32GZHeSycFc1ujmiLoG1QodmoV1Q5UrZSmCaU6"
+				"bzz-raw://bdf09f6951f70f629de705d5f3e1fd00967bc0ee8bc8f7717fd652b34bd36adb",
+				"dweb:/ipfs/QmdngdkEVyKZie3BJ7qxW4p3pWSHGmbDSWvwCQTr1gx7XS"
 			]
 		}
 	},

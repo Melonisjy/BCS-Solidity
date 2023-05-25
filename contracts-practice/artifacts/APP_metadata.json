@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "depositToApp",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts-practice/230525-practice.sol": "APP"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts-practice/230525-practice.sol": {
+			"keccak256": "0x3e36eb42fc4be7db5aaffedaff9b4cfc2f7b453624c9f01c3717391347496372",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://35ae235e70527211183dc75ff86edc058f6d2e02cbcaec6d5c513ff5c6215e6b",
+				"dweb:/ipfs/QmV1QJYRhq1xtcLxgZZZgs55wE9ApezKBRedrKS5kmU16C"
+			]
+		}
+	},
+	"version": 1
+}

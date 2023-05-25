@@ -7,12 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "A",
+				"name": "getList",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address[]",
 						"name": "",
-						"type": "uint256"
+						"type": "address[]"
 					}
 				],
 				"stateMutability": "view",
@@ -20,15 +20,16 @@
 			},
 			{
 				"inputs": [],
-				"name": "B",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
+				"name": "push",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "push2",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -45,7 +46,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts-lecture/230525-1.sol": "B"
+			"contracts-lecture/230525-1.sol": "MSGSENDER3"
 		},
 		"evmVersion": "paris",
 		"libraries": {},

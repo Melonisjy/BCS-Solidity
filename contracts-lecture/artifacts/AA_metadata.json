@@ -6,25 +6,42 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "numbers",
+				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "a",
+						"name": "",
 						"type": "uint256"
 					},
 					{
 						"internalType": "uint256",
-						"name": "b",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
+				"stateMutability": "pure",
+				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "A",
+				"name": "numbers2",
 				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
 					{
 						"internalType": "uint256",
 						"name": "",
@@ -36,8 +53,13 @@
 			},
 			{
 				"inputs": [],
-				"name": "B",
+				"name": "numbers3",
 				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
 					{
 						"internalType": "uint256",
 						"name": "",
@@ -61,7 +83,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts-lecture/230525-1.sol": "A"
+			"contracts-lecture/230525-1.sol": "AA"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -76,11 +98,11 @@
 	},
 	"sources": {
 		"contracts-lecture/230525-1.sol": {
-			"keccak256": "0x456b5543ca066d1ce998eac57c79b42f44df9178d30ba031739b9033ef3019ad",
+			"keccak256": "0x41a9a5c32f8182a03335e5c58d3b5cec9ad774726987266cf7571588afdd47a6",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://b503d950236a1fd31bb110d3122f1f9693edaf04420e9e12aa659821f4bbcc8b",
-				"dweb:/ipfs/Qmcfmuvc32GZHeSycFc1ujmiLoG1QodmoV1Q5UrZSmCaU6"
+				"bzz-raw://f7a27ad25480604dc8416dd03c4e43eb06873749a7346a362b11e64fa337cad5",
+				"dweb:/ipfs/Qmdy7zT12K2SFigX2HuDK5iAqjMbV5DJHyqQVGrM98LkPE"
 			]
 		}
 	},

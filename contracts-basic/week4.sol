@@ -62,4 +62,26 @@ contract _35 {
 			}
 			return numbers;
 		}
+
+        function getNumber() public view returns(uint[] memory) {
+            return numbers;
+        }
+}
+
+contract _36 {
+    enum Status {
+        high,
+        neutral,
+        low
+    }
+
+    function returnStatus(uint a) public pure returns(Status) {
+        if (a >= 7) {
+            return Status.high;
+        } else if (a >= 4) {
+            return Status.neutral;
+        } else {
+            return Status.low;
+        }
+    }
 }

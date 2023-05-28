@@ -85,3 +85,82 @@ contract _36 {
         }
     }
 }
+
+contract _37 {
+    address payable public owner;
+
+    constructor () {
+        owner = payable(msg.sender);
+    }
+
+    function donateWei() public payable {
+        require (msg.value == 1 wei);
+    }
+
+    function donateFinney() public payable {
+        require (msg.value == 1000000000000000 wei);
+    }
+
+    function donateEther() public payable {
+        require (msg.value == 1 ether);
+    }
+
+    function getAmount() public onlyOwner{
+        owner.transfer(address(this).balance);
+    }
+
+    modifier onlyOwner() {
+        require (msg.sender == owner);
+        _;
+    }
+}
+
+contract _38 {
+    address payable public owner;
+
+    string a = "A";
+
+    constructor() {
+        owner = payable(msg.sender);
+    }   
+
+    modifier onlyOwner() {
+        require (msg.sender == owner, "only owner");
+        _;
+    }
+
+    function changeToB() public onlyOwner {
+        a = "B";
+    }
+
+    function changeToC() public onlyOwner {
+        a = "C";
+    }
+
+    function getA() public view returns(string memory) {
+        return a;
+    }
+}
+
+contract _39 {
+    function returnNumbers(uint _n) public pure returns (uint, uint, uint, uint) {
+        return (_n/2, _n/3, _n/5, _n/7);
+    }
+}
+
+contract _40 {
+    function sorting(uint[] memory numbers) public pure returns(uint[] memory, uint) {
+        uint[] memory centrals;
+
+        for (uint i=0; i<numbers.length-1; i++) {
+            for (uint j=i+1; j<numbers.length; j++) {
+                if (numbers[i] > numbers[j]) {
+                    (numbers[i], numbers[j]) = (numbers[j], numbers[i]);
+                }
+            }
+        }
+        if (numbers.length % 2 == 0) {
+            
+        }
+    }
+}

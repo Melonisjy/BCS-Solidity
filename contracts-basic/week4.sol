@@ -149,18 +149,27 @@ contract _39 {
 }
 
 contract _40 {
-    function sorting(uint[] memory numbers) public pure returns(uint[] memory, uint) {
+    function sorting(uint[] memory _numbers) public pure returns(uint[] memory, uint[] memory) {
         uint[] memory centrals;
+        uint[] memory arrays;
 
-        for (uint i=0; i<numbers.length-1; i++) {
-            for (uint j=i+1; j<numbers.length; j++) {
-                if (numbers[i] > numbers[j]) {
-                    (numbers[i], numbers[j]) = (numbers[j], numbers[i]);
+        for (uint i=0; i<_numbers.length-1; i++) {
+            for (uint j=i+1; j<_numbers.length; j++) {
+                if (_numbers[i] > _numbers[j]) {
+                    (_numbers[i], _numbers[j]) = (_numbers[j], _numbers[i]);
                 }
             }
         }
-        if (numbers.length % 2 == 0) {
-            
+        
+        arrays = _numbers;
+        
+        if (arrays.length % 2 == 0) {
+            centrals[0] = arrays[(arrays.length / 2) - 1];
+            centrals[1] = arrays[arrays.length / 2];
+            return (centrals, arrays);
+        } else {
+            centrals[0] = arrays[arrays.length / 2];
+            return (centrals, arrays);
         }
     }
 }

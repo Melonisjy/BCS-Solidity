@@ -127,9 +127,14 @@ contract _48_B {
 
 // 긴 숫자를 넣었을 때, 마지막 3개의 숫자만 반환하는 함수를 구현하세요.
 contract _49 {
-    uint[3] public arr;
+    function returnThreeNums(uint _a) public pure returns(uint) {
+        return _a % 1000;
+    }
+}
 
-    // function get3nums(uint _n) public view returns(uint[3] memory) {
-    //     arr[0] = 
-    // }
+// 숫자 3개가 부여되면 그 3개의 숫자를 이어붙여서 반환하는 함수를 구현하세요. 
+contract _50 {
+    function nums(uint a, uint b, uint c) public pure returns(uint) {
+        return ((a * 100) + (b * 10) + (c * 1));
+    }
 }

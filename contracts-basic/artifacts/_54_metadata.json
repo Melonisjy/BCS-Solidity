@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "donate",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts-basic/week6.sol": "_54"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts-basic/week6.sol": {
+			"keccak256": "0x33e285f14ae16f34dd3ac7f7f2969f328bf174a7ba4ba44e1ebea722e5cc9e40",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b3375f383656d1f730968e64cb45135719e19974414a1f3d415e2269a65e2010",
+				"dweb:/ipfs/QmTZnePGnhfGiqzkYQNEZ6JGEgX7BVqSkxqhpB3rQser72"
+			]
+		}
+	},
+	"version": 1
+}

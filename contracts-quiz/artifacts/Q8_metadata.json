@@ -6,8 +6,14 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "count",
+				"inputs": [
+					{
+						"internalType": "string[]",
+						"name": "_myLetter",
+						"type": "string[]"
+					}
+				],
+				"name": "isSameLetter",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -21,37 +27,60 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "a",
-						"type": "uint256"
-					},
+						"internalType": "uint256[]",
+						"name": "_myNumber",
+						"type": "uint256[]"
+					}
+				],
+				"name": "isSameNumber",
+				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "b",
+						"name": "",
 						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "c",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "d",
-						"type": "uint256"
-					},
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
 					{
 						"internalType": "string",
-						"name": "x",
+						"name": "_a",
 						"type": "string"
 					},
 					{
 						"internalType": "string",
-						"name": "y",
+						"name": "_b",
 						"type": "string"
 					}
 				],
-				"name": "drawLotto",
+				"name": "letterCompare",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "_numbers",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "_letters",
+						"type": "string[]"
+					}
+				],
+				"name": "setLotto",
 				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
@@ -70,7 +99,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts-quiz/230523-QUIZ8.sol": "Q8"
+			"contracts-quiz/230530-QUIZ8-answer.sol": "Q8"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -84,12 +113,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts-quiz/230523-QUIZ8.sol": {
-			"keccak256": "0x79d521f1a9e4d444b5e0106959d3e726f544e1b40fb3a02b61518f47aab9fda9",
+		"contracts-quiz/230530-QUIZ8-answer.sol": {
+			"keccak256": "0x5ca8f7d82bed03c248b99f4f80778914fb3d07e6cdd3c1746e52f073099e80aa",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://8bf574dd9d8dc946412e44337754f042d603c9ca14969ac5dc56b2a935a3546f",
-				"dweb:/ipfs/QmULNewYd4NcFHfpbcr4tan3vrX3B9dr2bVGFCdEutNsja"
+				"bzz-raw://39b4ee9f9bb5fea607b834783c4cdb6e735a2b7a1b83d53522bfde241666d4c2",
+				"dweb:/ipfs/QmeaUWNH5AiEzRF8djpGAfQHqYuiqRRqjgoYD1gKtasQiH"
 			]
 		}
 	},

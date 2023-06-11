@@ -6,19 +6,24 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "_n",
-						"type": "uint256"
+						"internalType": "string[]",
+						"name": "_myLetter",
+						"type": "string[]"
 					}
 				],
-				"name": "HMS",
+				"name": "isSameLetter",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -27,17 +32,17 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "a",
-						"type": "uint256"
+						"internalType": "uint256[]",
+						"name": "_myNumber",
+						"type": "uint256[]"
 					}
 				],
-				"name": "concat",
+				"name": "isSameNumber",
 				"outputs": [
 					{
-						"internalType": "string",
+						"internalType": "uint256",
 						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -46,30 +51,50 @@
 			{
 				"inputs": [
 					{
-						"internalType": "uint256",
-						"name": "_n",
-						"type": "uint256"
+						"internalType": "string",
+						"name": "_a",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_b",
+						"type": "string"
 					}
 				],
-				"name": "setTime",
+				"name": "letterCompare",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "bool",
 						"name": "",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
+						"type": "bool"
 					}
 				],
 				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "_numbers",
+						"type": "uint256[]"
+					},
+					{
+						"internalType": "string[]",
+						"name": "_letters",
+						"type": "string[]"
+					}
+				],
+				"name": "setLotto",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setTargetNumber",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -86,7 +111,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts-quiz/230522-QUIZ7-answer.sol": "Q7"
+			"contracts-quiz/230530-QUIZ8-answer.sol": "Q7"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -100,12 +125,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts-quiz/230522-QUIZ7-answer.sol": {
-			"keccak256": "0xce7ef2173a2ba0aceebf09e87fe9263c4f65b3358a34f3b4452cfb76b0e810d0",
+		"contracts-quiz/230530-QUIZ8-answer.sol": {
+			"keccak256": "0xfa7e89eaa3909760ac83d957026d81899145bdbbb07d35a1ad999510fda4f75a",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://276a4d10497a7d5a2da2366209add2414ed01f68fc638596d083b357ee9e163f",
-				"dweb:/ipfs/QmRfwoQQJJybZfhrgvm3VU7K6pLYdWdXVicJ6SHgvTjN5F"
+				"bzz-raw://867fabef767b3b3ed4388a71df1ec239918065d7f029611832e363fb65e19d08",
+				"dweb:/ipfs/QmaLSkUSQmC14DhhnJZQUhQgHGFY13BX2emiuEN971J4ij"
 			]
 		}
 	},

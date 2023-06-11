@@ -143,7 +143,7 @@
 						"type": "uint8"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
@@ -402,11 +402,11 @@
 			]
 		},
 		"contracts-lecture/230525-erc20_publish.sol": {
-			"keccak256": "0xb621e6b48a62ac929001a8977d36cf2a8c971796d7128fbe6e6569e27d7b9563",
+			"keccak256": "0x06dce395cb2e6e4180e77dbb2ccbbcb4bda0e3de7f13820d476188106814633c",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8c73f378ba483941606c3340beaf1105064898ee334eb1db32a715063906aa75",
-				"dweb:/ipfs/QmVrXew3a2YfUtAR5NS59uL3qrj8ZMctnujkdGtn2S35CM"
+				"bzz-raw://2107af8738c48a84a21d2863f9fad264283d16a3a0a2ba5059e563af41cae21f",
+				"dweb:/ipfs/QmXSN2zGWP2xzierVuv55NWrtAsyP3RLshkzaowxoYmEtD"
 			]
 		}
 	},

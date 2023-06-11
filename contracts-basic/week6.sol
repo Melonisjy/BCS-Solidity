@@ -146,7 +146,73 @@ contract _56_Answer {
     }
 }
 
-// 위 문제의 또다른 버전입니다. owner가 변경할 때는 바로 변경가능하게 sub-owner가 변경하려고 한다면 owner의 동의가 필요하게 구현하세요.
+// 위 문제의 또다른 버전입니다. owner가 변경할 때는 바로 변경가능하도록, sub-owner가 변경하려고 한다면 owner의 동의가 필요하게 구현하세요.
+// 완성하지 못함.
 contract _57 {
+    address public owner;
+    address sub_owner;
+
+    bool isOwnerAgreed; // default: false
+
+    constructor (address _sub) {
+        owner = msg.sender;
+        sub_owner = _sub;
+    }
+
+    function isOwnerAgree(uint AOD) public {
+        if (AOD == 1) {
+            isOwnerAgreed = true;
+        } else if (AOD == 0) {
+            isOwnerAgreed = false;
+        }
+    }
+
+    function changeOwner(address _owner) public {
+        if (msg.sender == owner) {
+            owner = _owner;
+        } else if (msg.sender == sub_owner) {
+            require (isOwnerAgreed == true, "you must obtain the consent of the owner.");
+            owner = _owner;
+        }
+    }
+}
+
+/* 
+A contract에 a,b,c라는 상태변수가 있습니다. a는 A 외부에서는 변화할 수 없게 하고 싶습니다. 
+b는 상속받은 contract들만 변경시킬 수 있습니다. c는 제한이 없습니다. 각 변수들의 visibility를 설정하세요.
+*/
+contract _58 {
+    uint private a;
+    uint internal b;
+    uint public c;
+}
+
+// 현재시간을 받고 2일 후의 시간을 설정하는 함수를 같이 구현하세요.
+contract _59 {
+    uint public currentTime;
+
+    function timeSet() public returns(uint, uint) {
+        currentTime = block.timestamp;
+        return (currentTime, currentTime + 2 days);
+    }
+}
+
+/*
+방이 2개 밖에 없는 펜션을 여러분이 운영합니다. 
+각 방마다 한번에 3명 이상 투숙객이 있을 수는 없습니다. 
+특정 날짜에 특정 방에 누가 투숙했는지 알려주는 자료구조와 그 자료구조로부터 값을 얻어오는 함수를 구현하세요.
     
+예약시스템은 운영하지 않아도 됩니다. 과거의 일만 기록한다고 생각하세요. 
+// 힌트 : 날짜는 그냥 숫자로 기입하세요. 예) 2023년 5월 27일 → 230527
+*/
+contract _60 {
+    mapping (uint => mapping(uint => string[])) public searchWho;
+
+    function pushPerson(uint _date, uint _room, string[] memory _people) public {
+        searchWho[_date][_room] = _people;
+    }
+
+    function getData(uint _date, uint _room) public view returns(string[] memory) {
+        return searchWho[_date][_room];
+    } 
 }
